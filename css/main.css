@@ -161,3 +161,23 @@ footer a:not(.nav-link) {
   .btn-info{
     background-color: rgba(0, 128, 128, 0.603) !important;
   }
+
+  .bg-matte{
+    background-color: #37373781;
+  }
+
+  .bg-olive{
+    background-color: #2733108c;
+  }
+
+  .bg-cublue{
+    background-color: #1d2b3d88;
+  }
+
+  .bg-purple{
+    background-color: #2d034563;
+  }
+
+  .bg-brown{
+    background-color: #2916156c;
+  }
