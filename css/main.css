@@ -153,3 +153,11 @@ footer a:not(.nav-link) {
   .bg-quarternary {
     background-color: #3e006ecc !important;
 }
+
+  a:hover{
+    color: cyan !important;
+  }
+
+  .btn-info{
+    background-color: rgba(0, 128, 128, 0.603) !important;
+  }
