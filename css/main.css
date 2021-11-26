@@ -157,17 +157,20 @@ footer a:not(.nav-link) {
   a:hover{
     color: cyan !important;
   }
-
+  
   .btn-info{
     background-color: rgba(0, 128, 128, 0.603) !important;
   }
-
+  .btn-info:hover{
+    color: cyan !important;
+  }
+  
   .bg-matte{
     background-color: #37373781;
   }
 
   .bg-olive{
-    background-color: #2733108c;
+    background-color: #27331073;
   }
 
   .bg-cublue{
@@ -175,7 +178,7 @@ footer a:not(.nav-link) {
   }
 
   .bg-purple{
-    background-color: #2d034563;
+    background-color: #2d03455b;
   }
 
   .bg-brown{
