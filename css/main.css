@@ -279,3 +279,7 @@ footer a:not(.nav-link) {
             transform-origin: bottom;
   }
 }
+
+.img-thumbnail {
+	background-color: rgba(255, 255, 255, 0);
+}
