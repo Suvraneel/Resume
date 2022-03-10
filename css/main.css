@@ -128,8 +128,7 @@ footer a:not(.nav-link) {
     margin: 0 !important; }
   .my-5.p-5 {
     padding: 1.5rem 0 !important; }
-  .about-section {
-    padding: 0 !important; }
+  .about-section,
   .skills-section,
   .work-experience-section,
   .education-section,
@@ -282,4 +281,15 @@ footer a:not(.nav-link) {
 
 .img-thumbnail {
 	background-color: rgba(255, 255, 255, 0);
+}
+
+#canvas {
+  position: relative;
+  right: 8vw;
+}
+
+@media (max-width: 400px){
+  #canvas {
+    right: 35vw;
+  }
 }
