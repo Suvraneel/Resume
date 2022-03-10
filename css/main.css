@@ -293,3 +293,37 @@ footer a:not(.nav-link) {
     right: 35vw;
   }
 }
+
+.circle {
+  margin: 55px auto;
+  width: 50%;
+  border-radius: 50%;
+  background-color: deepskyblue;
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  opacity: 0;
+  animation: scaleIn 4s infinite cubic-bezier(.36, .11, .89, .32);
+}
+
+@keyframes scaleIn {
+  from {
+    transform: scale(.5, .5);
+    opacity: .5;
+  }
+  to {
+    transform: scale(2.5, 2.5);
+    opacity: 0;
+  }
+}
+
+@media (max-width: 500px){
+  .circle{
+    visibility: hidden;
+  }
+
+}
