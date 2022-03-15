@@ -1,7 +1,8 @@
 /* Timeline custom component */
 .timeline-card {
   position: relative;
-  margin-left: 16px; }
+  margin-left: 16px;
+}
 
 .timeline-card:before {
   content: '';
@@ -17,7 +18,13 @@
   z-index: 2; }
 
 .timeline-body {
-  border-left: 2px solid #E6E9ED; }
+  border-left: 2px solid #E6E9ED;
+  }
+
+.xp-body {
+  position: relative;
+  margin-left: 16px;
+}
 
 .timeline-card-primary:before {
   border-color: var(--bs-primary); }
@@ -319,6 +326,12 @@ footer a:not(.nav-link) {
     transform: scale(2.5, 2.5);
     opacity: 0;
   }
+}
+
+.org-logo{
+  position: relative;
+  right: 30px;
+  top: 5px;
 }
 
 @media (max-width: 500px){
